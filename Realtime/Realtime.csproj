@@ -43,6 +43,7 @@
 
     <ItemGroup>
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="Supabase.Core" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
@@ -59,7 +60,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\core-csharp\Core\Core.csproj" />
       <ProjectReference Include="..\..\postgrest-csharp\Postgrest\Postgrest.csproj" />
     </ItemGroup>
 </Project>
